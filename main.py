@@ -98,6 +98,6 @@ ax = sns.barplot(x=scored_df['score'].head(10), y=scored_df['original_title'].he
 plt.title('Best Rated & Most Popular Blend', weight='bold')
 plt.xlabel('Score', weight='bold')
 plt.ylabel('Movie Title', weight='bold')
-
+##
 plt.savefig('scored_movies.png')
 
